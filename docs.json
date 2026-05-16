@@ -1,6 +1,96 @@
 {
   "name": "limrun",
   "navigation": {
-    "tabs": []
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Quickstart for Coding Agents",
+            "pages": [
+              "agents/cli",
+              "agents/mcp"
+            ]
+          },
+          {
+            "group": "Remote iOS Development",
+            "pages": [
+              "ios/build-with-xcode",
+              "ios/run-simulator",
+              "ios/hot-reload",
+              "ios/in-app-purchases",
+              "ios/pr-previews"
+            ]
+          },
+          {
+            "group": "Remote Android Development",
+            "pages": [
+              "android/run-emulator"
+            ]
+          },
+          {
+            "group": "Automated Testing",
+            "pages": [
+              "testing/appium",
+              "testing/playwright"
+            ]
+          },
+          {
+            "group": "Platform Integration",
+            "pages": [
+              "platform/embed-simulator",
+              "platform/asset-storage"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/sdk-reference"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/openapi"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Examples",
+        "groups": [
+          {
+            "group": "iOS Examples",
+            "pages": [
+              "examples/ios"
+            ]
+          },
+          {
+            "group": "Android Examples",
+            "pages": [
+              "examples/android"
+            ]
+          },
+          {
+            "group": "Cross-platform Examples",
+            "pages": [
+              "examples/cross-platform"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
